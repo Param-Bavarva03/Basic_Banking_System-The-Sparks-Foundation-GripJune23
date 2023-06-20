@@ -1,0 +1,63 @@
+#img2
+{
+    width: 90%;
+}
+.adduser_class
+{
+}
+
+.userimg
+{
+    width: 50%;
+    margin-top: 50px;
+}
+form{
+    width: 50%;
+    padding-right: 10rem;
+}
+.foot{
+    margin-top: 50px;
+}
+
+h2{
+	font-size: 40px;
+}
+table{
+	letter-spacing: 1.2px;
+}
+td{
+	text-align: center;
+}
+button{
+	border:none;
+	background: #d9d9d9;
+    transition: 1s;
+}
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}
+
+.transfercont1, .choosecont1 {
+    flex: 0 1 700px;
+    width: 100%;
+    margin: auto;
+    padding: 0 120px 0 120px;
+}
+.transfercont1, .choosecont1 {
+    flex: 1; /* Allow the main content to grow and fill the remaining space */
+  }
+  
+.btntransfer{
+    border-radius: 5px;
+    background-color: #0d6efd;
+    color: white;
+    padding: 8px 22px 8px 22px;
+}
+.btntransfer:hover{
+    background-color: black;
+}
+.userform{
+    width: 100%;
+}
